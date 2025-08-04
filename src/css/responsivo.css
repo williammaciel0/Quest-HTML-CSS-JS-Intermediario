@@ -1,0 +1,12 @@
+@media(max-width: 576px) {
+    .conteudo {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 30px;
+        align-items: center;
+    }
+    .conteudo .descricao {
+        text-align: center;
+        margin-right: 0;
+    }
+}

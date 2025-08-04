@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <main class="conteudo">
+        <section class="descricao">
+            <p class="titulo">FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</p>
+            <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="secao-formulario">
+            <div class="input">
+                <input type="text" class="inputs" placeholder="Nome completo *">
+                <p class="msg-validacao">campo obrigatório</p>
+                <p class="msg-validacao-2"></p>
+            </div>
+
+            <div class="input">
+                <input type="text" class="inputs" placeholder="Email *">
+                <p class="msg-validacao">campo obrigatório</p>
+                <p class="msg-validacao-2"></p>
+            </div>
+            
+            <div class="input">
+                <input type="text" class="inputs" placeholder="Telefone *">
+                <p class="msg-validacao">campo obrigatório</p>
+                <p class="msg-validacao-2"></p>
+            </div>
+            
+            <div class="input">
+               <textarea class="inputs campo-mensagem" placeholder="Mensagem *"></textarea>
+               <p class="msg-validacao">campo obrigatório</p> 
+               <p class="msg-validacao-2"></p>
+            </div>
+            
+            <p class="campos-obrigatorios">*campos obrigatórios</p>
+            <button onclick="validacao()" class="botao-acao">Enviar</button>
+        </section>
+    </main>
+    <script src="src/js/formulario.js"></script>
+</body>
+</html>

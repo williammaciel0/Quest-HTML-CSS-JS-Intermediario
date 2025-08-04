@@ -1,0 +1,88 @@
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:  0 auto;
+    background-image: url(../imagens/plano-de-fundo.jpg);
+}
+
+.conteudo .descricao {
+    width: 300px;
+    height: 111px;
+    text-align: left;
+    color: #fff;
+    margin-right: 45px;
+}
+
+.conteudo .descricao .titulo {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.conteudo .descricao .texto {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo .secao-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    padding: 18px 20px;
+}
+
+.conteudo .secao-formulario .inputs {
+    width: 298px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.conteudo .secao-formulario .inputs.campo-mensagem {
+    height: 100px;
+}
+
+.conteudo .secao-formulario .input-valido {
+    border: 2px solid #00C22B;
+}
+
+.conteudo .secao-formulario .input-invalido {
+    border: 2px solid #F52E2E;
+}
+
+
+
+.conteudo .secao-formulario .msg-validacao, .msg-validacao-2 {
+    margin-bottom: 10px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+}
+
+.conteudo .secao-formulario .input.ativado .msg-validacao {
+    display: none;
+}
+
+.conteudo .secao-formulario .campos-obrigatorios {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo .secao-formulario .botao-acao {
+    border-radius: 5px;
+    background-color: #3CCC87;
+    color: #fff;
+    height: 41px;
+    border: 0;
+}
+
+.conteudo .secao-formulario .botao-acao:hover {
+    cursor: pointer;
+}
