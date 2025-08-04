@@ -1,4 +1,4 @@
-# Quest HTML + CSS + Javascript Intermediário
+# Quest HTML + CSS + JS Intermediário
 ## Tecnologias utilizadas
 - html
 - css
